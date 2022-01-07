@@ -1,0 +1,7 @@
+{
+    "version": "1.0.0",
+    "scripts": {
+        "build:program": "cargo build-bpf --manifest-path=./src/program/Cargo.toml --bpf-out-dir=dist/program",
+        "test:program": "cargo test-bpf --manifest-path=./src/program/Cargo.toml"
+    }
+}
